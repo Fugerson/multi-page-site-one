@@ -1,0 +1,47 @@
+.main{
+    /* display: flex; */
+}
+.fitback{
+    margin: 0 auto;
+    position: relative;
+    width: 1100px;
+  }
+  .fitback__heading{
+    width: 200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+  }
+  .fitback__flex{
+    display: flex;
+  }
+  .box__imput{
+
+  }
+  .fitback p{
+    font-size: 14px;
+  }
+    .fitback__input-name{
+    width: 270px;
+    height: 50px;
+margin-right: 20px;
+  }
+    .fitback__input-VK{
+    width: 270px;
+    height: 50px;
+
+  }
+  .fitback__input-text{
+    width: 550px;
+    height: 90px;
+    margin: 40px 70px 20px;
+  }
+.fitback__input-button{
+  width: 140px;
+  height: 30px;
+  margin: 20px 70px 50px auto;
+}

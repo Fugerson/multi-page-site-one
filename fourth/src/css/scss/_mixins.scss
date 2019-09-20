@@ -1,0 +1,84 @@
+/* --------- mixins --------- */
+@mixin museo($style : jenya) {
+	@if $style == jenya {
+		font-family: 'MuseoSansMinLight';
+	}
+
+	@if $style == light {
+		font-family: 'MuseoSansLight';
+	}
+
+	@if $style == med {
+		font-family: 'MuseoSansMedium';
+	}
+
+	@if $style == bold {
+		font-family: 'MuseoSansBold';
+	}
+
+	@if $style == bolder {
+		font-family: 'MuseoSansBolder';
+	}
+}
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+/* --------- responsive mixins --------- */
+@mixin phones {
+	@media (min-width: 320px) and (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin small_tablets {
+	@media (min-width: 480px) and (max-width: 640px) {
+		@content;
+	}
+}
+
+@mixin tablets {
+	@media (min-width: 640px) and (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media (min-width: 768px) and (max-width: 992px) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: 992px) and (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin small_huge {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin huge {
+	@media (min-width: 1550px) {
+		@content;
+	}
+}
+
+@mixin main($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
