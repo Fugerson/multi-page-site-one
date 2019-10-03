@@ -120,6 +120,7 @@ img{
   justify-content: space-between;
 }
 .header__logo{
+  margin: 15px;
   width: 99px;
   height: 51px;
   background: url("/img/logo-fig.png") no-repeat;
@@ -292,10 +293,10 @@ li{
   justify-content: space-between;
 }
 .parthners__item{
-  width: 180px;
+  max-width: 180px;
   height: 70px;
   margin: 30px 20px;
-  // flex: 1 1 180px;
+  flex-shrink: 10;
 }
 .parthners__item a img:last-child{
   padding: 0px 50px;
@@ -329,6 +330,7 @@ li{
       flex: 1 1 auto;
       }
     .footer__center{
+      margin-top: 15px;
     position: relative;
     float: left;
     text-align: center;

@@ -15,7 +15,7 @@
     url("/app/fonts/GothamProBold/GothamProBold.woff") format("woff"),
     url("/app/fonts/GothamProBold/GothamProBold.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 @font-face {
