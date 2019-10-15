@@ -7,12 +7,13 @@
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: "GothamProBold";
-    src: url("../fonts/GothamProBold/GothamProBold.eot");
-    src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
-    url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    src: url("fonts/GothamProBold/GothamProBold.eot");
+    src: url("fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("fonts/GothamProBold/GothamProBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
